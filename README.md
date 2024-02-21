@@ -7,7 +7,7 @@ Meet StarLoom, a powerful platform inspired by Vercel, designed to simplify and 
 - **Modular Design:** StarLoom is built with a modular architecture, allowing for easy extensibility and customization.
 - **Simplified Deployment:** Deploying applications with StarLoom is straightforward and efficient, enabling rapid iteration and seamless updates.
 - **Scalablity:** You can tweak StarLoom to meet your requirements for small personal project or a large-scale enterprise application.
-- - **Developer-Friendly:** StarLoom provides a user-friendly interface and intuitive tools, making it accessible to developers of all skill levels.
+- **Developer-Friendly:** StarLoom provides a user-friendly interface and intuitive tools, making it accessible to developers of all skill levels.
 - **Robust Services:** The StarLoom ecosystem includes a range of services such as frontend hosting, deployment services, upload services, and request handling, ensuring comprehensive support for your projects.
 
 ## Directory Structure
@@ -34,15 +34,15 @@ To get started with StarLoom, follow these steps:
   ```bash
   redis-server
   ```
-and the navigate to the StarLoom deploy, upload and request handler services and run:
-  ```bash
-  npx tsc -b
-  node dist/index.js
-  ```
-then finally navigate to StarLoom-frontend and run:
-  ```bash
-  npm run dev
-  ```
+   and then navigate to the StarLoom deploy, upload and request handler services and     run:
+     ```typescript
+     npx tsc -b
+     node dist/index.js
+     ```
+   then finally navigate to StarLoom-frontend and run:
+     ```javascript
+     npm run dev
+     ```
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements, new features, or bug fixes, please open an issue or submit a pull request.
